@@ -16,6 +16,7 @@
     "chalk": "^5.0.1",
     "inquirer": "^8.2.4",
     "nanospinner": "^1.1.0",
-    "qrcode": "^1.5.0"
+    "qrcode": "^1.5.0",
+    "valid-url": "^1.0.9"
   }
 }

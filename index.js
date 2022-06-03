@@ -10,7 +10,7 @@ let url = "";
 let mode = 0;
 
 const intro = () => {
-  console.log(`${chalk.inverse("Welcome to Uther!")}`);
+  console.log(`${chalk.bold.inverse("Welcome to Uther!")}`);
 };
 
 async function getWebsite() {
@@ -52,7 +52,7 @@ const sleep = (ms = 1000) => new Promise((r) => setTimeout(r, ms));
 
 const spinner = async () => {
   const spinner = createSpinner("Generating...").start();
-  await sleep();
+  await sleep(500);
   if (mode != 0) {
     spinner.success({ text: "Done!" });
   } else {
